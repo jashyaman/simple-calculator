@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "ng build --watch --configuration development",
+    "deploy": "gh-pages --base-href=jashyaman/simple-calculator -d dist/simple-calculator"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +18,7 @@
     "@angular/platform-browser": "^19.0.0",
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
+    "gh-pages": "^6.3.0",
     "mathjs": "^14.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
