@@ -14,7 +14,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
     margin-top:13px;
     height: 50px;
     width: 50px; 
-    cursor: pointer; 
+    cursor: pointer;
+    font-weight: 400;
   }
   `
 })
